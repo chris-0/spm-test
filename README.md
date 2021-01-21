@@ -1,3 +1,3 @@
-# TestVersion
+# Permutive iOS SDK
 
-A description of this package.
+The iOS SDK for adding Permutive features to your products
