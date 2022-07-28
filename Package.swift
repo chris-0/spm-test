@@ -26,7 +26,8 @@ let package = Package(
     targets: [
         .target(
             name: "Permutive_iOS_AppNexus",
-            path: "spm-test"
+            path: "spm-test",
+            dependencies: ["AppNexusSDK"]
         )
     ]
 )
