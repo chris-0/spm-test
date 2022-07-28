@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "mobile-sdk-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/appnexus/mobile-sdk-ios.git",
+      "state" : {
+        "revision" : "f4e940d57231e839a24dd4e943af39b3e16107e3",
+        "version" : "7.22.0"
+      }
+    },
+    {
+      "identity" : "permutive-ios-spm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/permutive-engineering/permutive-ios-spm.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "776fb9d873fbeecab908cd87ae2b65e7d8cd2bf4"
+      }
+    }
+  ],
+  "version" : 2
+}
