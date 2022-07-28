@@ -15,10 +15,12 @@ let package = Package(
     dependencies: [
         // Dependencies declare other packages that this package depends on.
         .package(
+            name: "AppNexusSDK",
             url: "https://github.com/appnexus/mobile-sdk-ios.git",
             .exact("7.22.0")
         ),
         .package(
+            name: "Permutive_iOS",
             url: "https://github.com/permutive-engineering/permutive-ios-spm.git",
             from: "1.5.0"
         )
@@ -27,8 +29,8 @@ let package = Package(
         .target(
             name: "Permutive_iOS_AppNexus",
             dependencies: [
-                .product(name: "AppNexusSDK", package: "mobile-sdk-ios"),
-                .product(name: "Permutive_iOS", package: "permutive-ios-spm")
+                .product(name: "AppNexusSDK", package: "AppNexusSDK"),
+                .product(name: "Permutive_iOS", package: "Permutive_iOS")
             ],
             path: "spm-test"
         )
