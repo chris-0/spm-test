@@ -17,7 +17,7 @@ let package = Package(
         .package(
             name: "AppNexusSDK",
             url: "https://github.com/appnexus/mobile-sdk-ios.git",
-            .exact("7.22.0")
+            .exact("8.0.0")
         ),
         .package(
             name: "Permutive_iOS",
